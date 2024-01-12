@@ -1,8 +1,23 @@
-# Limite diário de 3 saques
-# Caso não tenha saldo exibir mensagem alertando
-# Limite por saque de 500 reais
-# Armazenar saques em uma variável
-# Formato de exibição R$ 1500.00
+# otimizando o sistema bancario com o módulo de funções
+# Separar as funções de saque, depósito e visualização do extrato
+# Criar funções de criar cliente e outra de criar conta corrente
+
+
+"""
+    Função de saque deve receber argumentos apenas por nome:
+    nomes sugeridos argumentos: saldo, valor, extrato, limite, numero_saques, limite_saques
+    nomes sugeridos retorno: saldo, extrato
+
+    Função de depósito deve receber os argumentos apenas pos posição:
+    nomes sugeridos argumentos: saldo, valor, extrato
+    sugestão de retornos: saldo e extrato
+
+    Função extrato deve receber os argumentos por posição e nome:
+    argumentos posicionais: saldo
+    argumentos nomeados: extrato
+
+    Criar usuário, criar conta corrente, listar contas
+"""
 
 menu = """
 
